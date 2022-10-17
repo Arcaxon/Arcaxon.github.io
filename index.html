@@ -38,18 +38,23 @@ initial-scale=1.0" />
 }
 
 #topBox{
-                    height: 500px;
+                    height: 400px;
                 }
         .artists{
+            transition: all .3s ease;
                     width: 25%;float: left; vertical-align: top; padding: auto; padding-top: 20px; padding-bottom: 20px;
                 }
+
+        .artists:hover{
+        transform: scale(1.1);
+        }
             @media only screen and (max-width: 1050px) {
                 .imagee{
                     width: 100%;
                     min-width: 50px;
                 }
                 #topBox{
-                    height: 900px;
+                    height: 1400px;
                 }
                 .artists{
                     width: 90%;float: left; vertical-align: top; padding: auto;
@@ -63,42 +68,40 @@ initial-scale=1.0" />
                 <ul id="mainMenu">
                     <a href="index.html"><li>Home Page</li></a>
                     <a href="refsheets.html"><li>Ref Sheets</li></a>
-                    <p>One day I might add more here but for now this is it!</p>
+                    <p style="text-shadow: 2px 2px black;">One day I might add more here but for now this is it!</p>
                 </ul>
             </nav>
         </header>
         <main>
             <div>
-                <!-- <h1>Arcaxon</h1> -->
-
             <div id="topBox" class="infobox">
                 <h2>Choose a Website</h2>
             <a href="https://TheSquishGang.com" target="_blank">
             <div class="artists">
                 <img src="assets/images/tsg.gif" width="100px">
                 <h3>TSG!</h3>
-                <a href="https://TheSquishGang.com" target="_blank"><div class="button">Visit Website</div></a>
+                <!-- <a href="https://TheSquishGang.com" target="_blank"><div class="button">Visit Website</div></a> -->
             </a>
             </div>
             <a href="https://Tungenchek.com" target="_blank">
             <div class="artists">
                 <img src="assets/images/demitf.png" width="100px">
                 <h3>The Demi-Server</h3>
-                <a href="https://Tungenchek.com" target="_blank"><div class="button">Visit Website</div></a>
+                <!-- <a href="https://Tungenchek.com" target="_blank"><div class="button">Visit Website</div></a> -->
             </div>
         </a>
         <a href="https://Tungenchek.com" target="_blank">
         <div class="artists">
                 <img src="assets/images/tungenchek.png" width="100px">
                 <h3>Tungenchek</h3>
-                <a href="https://Tungenchek.com" target="_blank"><div class="button">Visit Website</div></a>
+                <!-- <a href="https://Tungenchek.com" target="_blank"><div class="button">Visit Website</div></a> -->
         </div>
     </a>
     <a href="https://Toonyshop.com" target="_blank">
         <div class="artists">
                 <img src="assets/images/toonyshop.jpg" width="100px">
                 <h3>Artemptoon/Toonyshop</h3>
-                <a href="https://Toonyshop.com" target="_blank"><div class="button">Visit Website</div></a>
+                <!-- <a href="https://Toonyshop.com" target="_blank"><div class="button">Visit Website</div></a> -->
             </div>
         </a>
             </div>
@@ -158,6 +161,7 @@ If you wish to contact me or get help on anything feel free to message me anytim
         <footer>
             <small>© 2012-2023 Arcaxon All Rights Reserved</small>
             <small>All copyrights belong to their respective owners.</small>
+            <br/>
         </footer>
         <br>
 
