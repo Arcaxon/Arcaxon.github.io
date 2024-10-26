@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Bad Comic';
+	src: url(../../assets/fonts/Bad%20Comic-1c0a9a20ed2192b90e9bfc8312d90baf.woff2) format('woff2'),
+	url(../../assets/fonts/Bad%20Comic-44f9df0deef6ba8d5c23ffb2ded55755.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bad Comic';
+	src: url(../../assets/fonts/Bad%20Comic-17298c2241b89c16071fef80d23723cc.woff2) format('woff2'),
+	url(../../assets/fonts/Bad%20Comic-e78c71e171acb16f2e5fedbec6d9af57.woff) format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}

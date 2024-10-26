@@ -1,666 +1,106 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Acme|Monda|Oxygen');
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-.button {
-    transition: all .3s ease;
-}
-.smallbutton {
-    transition: all .3s ease;
-}
-/*GENERAL STYLE*/
-/*
-Arc Colors: 
-Gray BG Main: #282928
-Gray BG Secondary: #323034
-
-
-TSG! Colors: 
-Orange: #ff660f
-Blue: #3498db
-Purple: #71368a
-Regular Black
-Regular White
-*/
-
-
-
-
-/* FADE INS FOR WEBSITE */
-.introFade1{
-    -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 0.5s; /* Firefox < 16 */
-        -ms-animation: fadein 0.5s; /* Internet Explorer */
-         -o-animation: fadein 0.5s; /* Opera < 12.1 */
-            animation: fadein 0.5s;
-}
-.introFade2{
-    -webkit-animation: fadein 0.7s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 0.7s; /* Firefox < 16 */
-        -ms-animation: fadein 0.7s; /* Internet Explorer */
-         -o-animation: fadein 0.7s; /* Opera < 12.1 */
-            animation: fadein 0.7s;
-}
-.introFade3{
-    -webkit-animation: fadein 0.9s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 0.9s; /* Firefox < 16 */
-        -ms-animation: fadein 0.9s; /* Internet Explorer */
-         -o-animation: fadein 0.9s; /* Opera < 12.1 */
-            animation: fadein 0.9s;
-}
-.introFade4{
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
-}
-.introFade5{
-    -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1.2s; /* Firefox < 16 */
-        -ms-animation: fadein 1.2s; /* Internet Explorer */
-         -o-animation: fadein 1.2s; /* Opera < 12.1 */
-            animation: fadein 1.2s;
-}
-.introFade6{
-    -webkit-animation: fadein 1.4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1.4s; /* Firefox < 16 */
-        -ms-animation: fadein 1.4s; /* Internet Explorer */
-         -o-animation: fadein 1.4s; /* Opera < 12.1 */
-            animation: fadein 1.4s;
-}
-.introFade7{
-    -webkit-animation: fadein 1.6s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1.6s; /* Firefox < 16 */
-        -ms-animation: fadein 1.6s; /* Internet Explorer */
-         -o-animation: fadein 1.6s; /* Opera < 12.1 */
-            animation: fadein 1.6s;
-}
-.introFade8{
-    -webkit-animation: fadein 1.8s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1.8s; /* Firefox < 16 */
-        -ms-animation: fadein 1.8s; /* Internet Explorer */
-         -o-animation: fadein 1.8s; /* Opera < 12.1 */
-            animation: fadein 1.8s;
-}
-.introFade9{
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
-}
-.introFade10{
-    -webkit-animation: fadein 2.2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2.2s; /* Firefox < 16 */
-        -ms-animation: fadein 2.2s; /* Internet Explorer */
-         -o-animation: fadein 2.2s; /* Opera < 12.1 */
-            animation: fadein 2.2s;
-}
-.introFade11{
-    -webkit-animation: fadein 2.4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2.4s; /* Firefox < 16 */
-        -ms-animation: fadein 2.4s; /* Internet Explorer */
-         -o-animation: fadein 2.4s; /* Opera < 12.1 */
-            animation: fadein 2.4s;
+.arcaxondotcum {
+  font-family: 'Aller Display';
+  font-size: 1.3em;
+  color: #aa9b70!important;
+  height: 28px;
 }
 
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+#ArcaxonBar .topNav {
+  color: #476e69!important;
+  padding-top: 0px!important;
+  margin-top: 0px!important;
+  padding-bottom: 0px!important;
+  height: 28px;
 }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+#ArcaxonBar {
+  display: block;
+  height: 35px;
+  width: 100%;
+  background-color: #2f1217ff;
+  border-bottom: 1px groove #476e69;
+  border-top: none;
 }
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+#ArcaxonBar .nav-link {
+  font-family: "Bad Comic";
+  color: #aa9b70!important;
 }
 
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+#ArcaxonBar .nav-link:hover {
+  font-family: "Bad Comic";
+  color: #476e69!important;
 }
 
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+.arcaxondotcum:hover {
+  color: #476e69!important;
 }
 
-
-/*END OF FADE INS*/
-
-html{
-    background-color: #323034;
-    width: 100%;
-    height: 100%;
-    color: white;
-}
-main{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-a {
-    color: #3498db;
-    text-decoration: none;
-    
-}
-span{
-    color: #3498db;
-    font-weight: bolder;
-}
-.infobox{
-    width: 90%;
-    height: auto;
-    padding: 20px;
-    background-color: #71368a;
-    border: #71368a solid;
-    border-radius: 25px;
-    text-align: center;
-    margin: auto;
-    margin-top:50px;
-    margin-bottom:0px;
-}
-.smallinfobox{
-    width: 90%;
-    min-height: 50px;
-    border-radius: 25px;
-    margin-top:50px;
-    margin-bottom:50px;
-    text-align: center; 
+.socialMediaButt div {
+  transition: 100ms ease-in!important;
+  background-color: #aa9b70;
 }
 
-h1{
-    text-align: center;
-    color: white;
-    font-family: Acme;
-    font-size: 2.2em;
-    padding: 10px;
-    text-shadow: 1px 0px black;
-}
-h2{
-    margin-top: 20px;
-    text-align: center;
-    font-family: Acme;
-    font-size: 2em;
-    padding: 10px;
-    color: white;
-    text-shadow: 1px 0px black;
-}
-h3{
-    margin-top: 20px;
-    text-align: center;
-    font-family: Acme;
-    font-size: 1.8em;
-    padding: 10px;
-    color: #ff660f;
-    text-shadow: 1px 0px black;
-}
-h4{
-    margin-top: 20px;
-    text-align: center;
-    font-family: Acme;
-    font-size: 1.5em;
-    padding: 10px;
-    color: #3498db;
-    text-shadow: 1px 0px black;
+.socialMediaButt div:hover {
+  background-color: #476e69!important;
 }
 
-img{
-    min-width: 200px;
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-#bottomNav{
-    display: block;
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    height: 50px;
-    text-align: left;
-    background-color: #282928;
-}
-.iconContain{
-    float: right;
-    display: inline-block;
-    width: auto;
-    height: 100%;
-
-}
-.icons{
-    width: 35px;
-    height: 35pc;
-    padding: 5px;
-    margin: auto;
+.webButt:active {
+  background-color: #476e69!important;
+  color: #aa9b70!important;
 }
 
-/*#settingsHold{
-    min-width: 200px;
-    max-width: 95%;
-}
-#sideMenuHold{
-
-    }*/
-/*MAKING THE WEBSITE AS I GO*/
-#topWeb{
-    height: 50px;
-    background-color: #3498db;
-}
-#tsgLogo{
-    height: 100%;
-    background-image: url(../images/tsgLogo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.holderTop{
-    width: 100%;
-    padding: 20px;
-    height: 400px;
-    /*background-color: #71368a;*/
+.webButt:hover {
+  background-color: #476e69;
+  color: #aa9b70!important;
 }
 
-#imageAppPreview{
-    display: block;
-    margin: 0 auto;
-    width: 670px;
-    height: 400px;
-    box-shadow: 0px 0px 30px #282928;
-    background-image: url(../images/TSGShowcase1.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    animation-delay: 0s;
-    animation-name: FadeInOut;
-    animation-duration: 45s;
-    animation-iteration-count: infinite;
+.webButt {
+  color: #476e69!important;
+  font-size: large;
+  transition: 100ms ease-in!important;
+  background-color: #2f1217;
+  margin-bottom: 10px;
 }
 
-#imageNetworkPreview{
-    display: block;
-    margin: 0 auto;
-    width: 670px;
-    height: 400px;
-    box-shadow: 0px 0px 30px #282928;
-    background-image: url(../images/TSGShowcase1.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    animation-delay: 0s;
-    animation-name: NetFadeInOut;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+/* ANIMATIONS */
+
+#shipFlying {
+  position: absolute;
+  height: 40px;
+  z-index: -1;
+  top: 260px;
+  animation: x-motion 10s 0s infinite reverse;
 }
 
-#imageGamingPreview{
-    display: block;
-    margin: 0 auto;
-    width: 670px;
-    height: 400px;
-    box-shadow: 0px 0px 30px #282928;
-    background-image: url(../images/game1.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    animation-delay: 0s;
-    animation-name: GameFadeInOut;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+/* #shipFlying:before {
+  content: '';
+  height: 50px;
+  z-index: -1;
+  position: absolute;
+  top: 100%;
+  background-image: url("../../assets/img/Shipflying.png");
+  background-size: contain;
+  animation: y-motion 1s ease-in-out 0s infinite reverse;
+} */
+
+@keyframes x-motion {
+  0% {
+    top: -100px;
+    left: 450px;
+  }
+  100% {
+    left: 100%;
+    top: calc(80% - 10px);
+  }
 }
 
-#imageAppCassi{
-    display: block;
-    margin: 0 auto;
-    width: 670px;
-    height: 400px;
-    box-shadow: 0px 0px 30px #282928;
-    background-image: url(../images/TSGShowcase4.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    /*animation-delay: 0s;
-    animation-name: FadeInOut;
-    animation-duration: 45s;
-    animation-iteration-count: infinite;*/
-}
-#imagedemiPreview{
-    display: block;
-    margin: 0 auto;
-    width: 670px;
-    height: 400px;
-    box-shadow: 0px 0px 30px #282928;
-    background-image: url(../images/demi1.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    animation-delay: 0s;
-    animation-name: demiFadeInOut;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+@keyframes y-motion {
+  0%, 100% {
+    top: 100%;
+  }
+  50% {
+    top: 0%;
+  }
 }
 
-
-@media only screen and (max-width: 450px) {
-#imageAppCassi{
-    width: 300px;
-    height: 179px;
-    box-shadow: 0px 0px 15px #282928;
-}
-#imageAppPreview{
-    width: 300px;
-    height: 179px;
-    box-shadow: 0px 0px 15px #282928;
-
-}
-#imageNetworkPreview{
-    width: 300px;
-    height: 179px;
-    box-shadow: 0px 0px 15px #282928;
-
-}
-#imageGamingPreview{
-    width: 300px;
-    height: 179px;
-    box-shadow: 0px 0px 15px #282928;
-
-}
-.holderTop{
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-top: 5px;
-    height: 200px;
-}
-#bottomNav{
-    height: 70px;
-}
-}
-.no-flick{
-    transform:translate3d(0,0,0);
-}
-#imageAppPreviewLoad{
-    display: inline;
-    width: auto;
-    height: 0px;
-    background-image: url(../images/TSGShowcase1.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    animation-delay: 0s;
-    animation-name: FadeInOut;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
-}
-#imageNetworkLoad{
-    display: inline;
-    width: auto;
-    height: 0px;
-    background-image: url(../images/TSGShowcase1.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    animation-delay: 0s;
-    animation-name: NetFadeInOut;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
-}
-#imageGamingLoad{
-    display: inline;
-    width: auto;
-    height: 0px;
-    background-image: url(../images/demi1.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    animation-delay: 0s;
-    animation-name: gameFadeInOut;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
-}
-#imagedemiLoad{
-    display: inline;
-    width: auto;
-    height: 0px;
-    background-image: url(../images/demi1.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    animation-delay: 0s;
-    animation-name: demiFadeInOut;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
-}
-
-@keyframes FadeInOut {
-    0% {background-image: url(../images/TSGShowcase1.png);box-shadow: 0px 0px 30px black;}
-    8.25% {background-image: url(../images/TSGShowcase1.png);box-shadow: 0px 0px 30px black;}
-    12.5% {background-image: url(../images/TSGShowcase2.png);box-shadow: 0px 0px 40px black;}
-    18.75% {background-image: url(../images/TSGShowcase2.png);box-shadow: 0px 0px 40px black;}
-    21.25% {background-image: url(../images/TSGShowcase3.png);box-shadow: 0px 0px 30px black;}
-    27% {background-image: url(../images/TSGShowcase3.png);box-shadow: 0px 0px 30px black;}
-    37.5% {background-image: url(../images/TSGShowcase4.png);box-shadow: 0px 0px 40px black;}
-    45.75% {background-image: url(../images/TSGShowcase4.png);box-shadow: 0px 0px 40px black;}
-    50% {background-image: url(../images/TSGShowcase5.png);box-shadow: 0px 0px 30px black;}
-    56.25% {background-image: url(../images/TSGShowcase5.png);box-shadow: 0px 0px 30px black;}
-    62.5% {background-image: url(../images/TSGShowcase6.png);box-shadow: 0px 0px 40px black;}
-    70.75% {background-image: url(../images/TSGShowcase6.png);box-shadow: 0px 0px 40px black;}
-    75% {background-image: url(../images/TSGShowcase7.png);box-shadow: 0px 0px 30px black;}
-    83.25% {background-image: url(../images/TSGShowcase7.png);box-shadow: 0px 0px 30px black;}
-    87.5% {background-image: url(../images/TSGShowcase8.png);box-shadow: 0px 0px 40px black;}
-    95.75% {background-image: url(../images/TSGShowcase8.png);box-shadow: 0px 0px 30px black;}
-    100% {background-image: url(../images/TSGShowcase1.png);box-shadow: 0px 0px 30px black;}
-}
-
-@keyframes NetFadeInOut {
-    0% {background-image: url(../images/TSGShowcase1.png);box-shadow: 0px 0px 30px black;}
-    18.6% {background-image: url(../images/TSGShowcase1.png);box-shadow: 0px 0px 30px black;}
-    33.2% {background-image: url(../images/TSGNetwork1.png);box-shadow: 0px 0px 40px black;}
-    51.8% {background-image: url(../images/TSGNetwork1.png);box-shadow: 0px 0px 40px black;}
-    66.4% {background-image: url(../images/TSGNetwork2.png);box-shadow: 0px 0px 40px black;}
-    87% {background-image: url(../images/TSGNetwork2.png);box-shadow: 0px 0px 40px black;}
-    100% {background-image: url(../images/TSGShowcase1.png);box-shadow: 0px 0px 30px black;}
-}
-
-@keyframes GameFadeInOut {
-    0% {background-image: url(../images/game1.png);box-shadow: 0px 0px 30px black;}
-    18.6% {background-image: url(../images/game1.png);box-shadow: 0px 0px 30px black;}
-    33.2% {background-image: url(../images/game2.png);box-shadow: 0px 0px 40px black;}
-    51.8% {background-image: url(../images/game2.png);box-shadow: 0px 0px 40px black;}
-    66.4% {background-image: url(../images/game3.png);box-shadow: 0px 0px 40px black;}
-    87% {background-image: url(../images/game3.png);box-shadow: 0px 0px 40px black;}
-    100% {background-image: url(../images/game1.png);box-shadow: 0px 0px 30px black;}
-}
-
-@keyframes demiFadeInOut {
-0% {background-image: url(../images/demi1.png);box-shadow: 0px 0px 30px black;}
-    8.25% {background-image: url(../images/demi1.png);box-shadow: 0px 0px 30px black;}
-    12.5% {background-image: url(../images/demi2.png);box-shadow: 0px 0px 40px black;}
-    18.75% {background-image: url(../images/demi2.png);box-shadow: 0px 0px 40px black;}
-    21.25% {background-image: url(../images/demi3.png);box-shadow: 0px 0px 30px black;}
-    27% {background-image: url(../images/demi3.png);box-shadow: 0px 0px 30px black;}
-    37.5% {background-image: url(../images/demi4.png);box-shadow: 0px 0px 40px black;}
-    45.75% {background-image: url(../images/demi4.png);box-shadow: 0px 0px 40px black;}
-    50% {background-image: url(../images/demi5.png);box-shadow: 0px 0px 30px black;}
-    56.25% {background-image: url(../images/demi5.png);box-shadow: 0px 0px 30px black;}
-    62.5% {background-image: url(../images/demi6.png);box-shadow: 0px 0px 40px black;}
-    70.75% {background-image: url(../images/demi6.png);box-shadow: 0px 0px 40px black;}
-    75% {background-image: url(../images/demi7.png);box-shadow: 0px 0px 30px black;}
-    83.25% {background-image: url(../images/demi7.png);box-shadow: 0px 0px 30px black;}
-    87.5% {background-image: url(../images/demi8.png);box-shadow: 0px 0px 40px black;}
-    95.75% {background-image: url(../images/demi8.png);box-shadow: 0px 0px 30px black;}
-    100% {background-image: url(../images/demi1.png);box-shadow: 0px 0px 30px black;}
-}
-
-.seperator{
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    height:10px;
-    border-radius: 10px;
-}
-.purple{
-    background-color: #71368a;
-}
-.orange{
-    background-color: #ff660f;
-}
-.green{
-    background-color: #2ecc71;
-}
-.blue{
-    background-color: #3498db;
-}
-.tpurple{
-    color: #71368a;
-}
-.torange{
-    color: #ff660f;
-}
-.tgreen{
-    color: #2ecc71;
-}
-.tblue{
-    color: #3498db;
-}
-#topNavHold{
-    border-left: solid #ff660f 10px;
-    border-radius: 10px;
-}
-#settingsHold{
-    border-left: solid #2ecc71 10px;
-    border-radius: 10px;
-}
-#settingsHold h3{
-    color:#2ecc71;
-}
-#sideMenuHold{
-    border-left: solid #e74c3c 10px;
-    border-radius: 10px;
-}
-#sideMenuHold h3{
-    color:#e74c3c;
-}
-#additionalHold{
-    border-left: solid #3498db 10px;
-    border-radius: 10px;
-}
-#additionalHold h3{
-    color:#3498db;
-}
-
-p{
-    font-family: Oxygen;
-    font-size: 1.2em;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-footer{
-    padding-top: 10px;
-    text-align: center;
-    padding-bottom: 150px;
-    background-color: #282928;
-}
-small{
-    font-family: Monda;
-    font-size: 1em;
-    display: block;
-    padding-top: 5px;
-}
-.button{
-    display: block;
-    width: 70%;
-    height: 20px;
-    background-color: #282928;
-    padding: 20px;
-    font-size: 1.2em;
-    font-family: Acme;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-}
-.button:hover{
-    background-color: #3498db;
-    cursor: pointer;
-    color: white;
-}
-.pbutton:hover{
-    background-color: #71368a !important;
-    cursor: pointer;
-    color: white;
-}
-.button a{
-    margin: auto;
-}
-
-/*Main Page Style*/
-.top{
-    width: 100%;
-    min-height: 400px;
-    padding-bottom: 50px;
-    background-position: center;
-    background-size: cover;
-}

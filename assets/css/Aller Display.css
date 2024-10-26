@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Aller Display';
+	src: url(../../assets/fonts/Aller%20Display-b1f3d2e0ec661298ae9fcddc8ea6f281.woff2) format('woff2'),
+	url(../../assets/fonts/Aller%20Display-ee37335818a92a0c02f8f8ad9892e10a.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
