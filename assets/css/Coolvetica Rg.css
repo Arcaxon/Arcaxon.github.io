@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Coolvetica Rg';
+	src: url(../../assets/fonts/Coolvetica%20Rg-57f27dbd1369215cd058be0d79c75dbd.woff2) format('woff2'),
+	url(../../assets/fonts/Coolvetica%20Rg-80e923fcba0996fdbc9f8a66e8f0c794.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Coolvetica Rg';
+	src: url(../../assets/fonts/Coolvetica%20Rg-b0e11fe2b9fa93b32b3cdcf17012e8bb.woff2) format('woff2'),
+	url(../../assets/fonts/Coolvetica%20Rg-2773ca241a887de1c98af89837709200.woff) format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}

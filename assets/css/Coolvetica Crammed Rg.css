@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Coolvetica Crammed Rg';
+	src: url(../../assets/fonts/Coolvetica%20Crammed%20Rg-206ce7e5a7d4e76e5d839c7d83943ea7.woff2) format('woff2'),
+	url(../../assets/fonts/Coolvetica%20Crammed%20Rg-eb043087ffa90143969b50daedd602b7.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

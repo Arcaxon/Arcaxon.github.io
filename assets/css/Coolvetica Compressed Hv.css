@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Coolvetica Compressed Hv';
+	src: url(../../assets/fonts/Coolvetica%20Compressed%20Hv-10f3ac49fc9fe4ae1acf89443d0d654c.woff2) format('woff2'),
+	url(../../assets/fonts/Coolvetica%20Compressed%20Hv-0b9de11f274dc180118990d5c2557056.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}

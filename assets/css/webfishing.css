@@ -1,0 +1,77 @@
+.linkMain active:hover {
+  text-align: center;
+  background-color: #5a755a;
+  border-radius: 50px;
+  min-width: 200px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.linkMain active {
+  text-align: center;
+  background-color: #5a755a;
+  border-radius: 50px;
+  min-width: 200px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.nav-tabs .nav-link.active {
+  text-align: center;
+  background-color: #5a755a;
+  border-radius: 50px;
+  min-width: 200px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.linkMain:hover {
+  text-align: center;
+  background-color: #5a755a;
+  border-radius: 50px;
+  min-width: 200px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.linkMain {
+  text-align: center;
+  background-color: #3f523f;
+  border-radius: 50px;
+  min-width: 200px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.tabLinks {
+  color: #b2a795;
+  text-decoration: none;
+  font-family: 'Coolvetica Condensed Rg';
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0)!important;
+}
+
+.tabLinks:hover {
+  color: #ffeed5;
+}
+
+.fishButt {
+  color: #476e69!important;
+  font-size: large;
+  transition: 100ms ease-in!important;
+  background-color: #2f1217;
+  margin-bottom: 10px;
+}
+
+.fishButt:active {
+  background-color: #476e69!important;
+  color: #aa9b70!important;
+}
+
+.fishButt:hover {
+  background-color: #476e69;
+  color: #aa9b70!important;
+}
+

@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Accidental Presidency';
+	src: url(../../assets/fonts/Accidental%20Presidency-64c98f5454b614f32c276c8f539522fc.woff2) format('woff2'),
+	url(../../assets/fonts/Accidental%20Presidency-34fc2c065e54b84df05b74385b584c45.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Coolvetica Condensed Rg';
+	src: url(../../assets/fonts/Coolvetica%20Condensed%20Rg-8163553e3a742d45164b922cbe0c4416.woff2) format('woff2'),
+	url(../../assets/fonts/Coolvetica%20Condensed%20Rg-f14eb2d015cc2ff7f097a17b078c7007.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
