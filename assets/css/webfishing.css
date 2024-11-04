@@ -41,6 +41,7 @@
   min-width: 200px;
   margin-right: 10px;
   height: 50px;
+  transition: 100ms ease-in!important;
 }
 
 .tabLinks {
@@ -144,25 +145,25 @@
 
 @keyframes fishHop {
   0% {
-    transform: translateY(0px);
+    transform: translateY(0px) translateX(0px);
   }
   30% {
-    transform: translateY(0px);
+    transform: translateY(0px) translateX(0px);
   }
   40% {
-    transform: translateY(-25px);
+    transform: translateY(-25px) translateX(5px);
   }
   60% {
-    transform: translateY(0px);
+    transform: translateY(0px) translateX(0px);
   }
   80% {
-    transform: translateY(0px);
+    transform: translateY(0px) translateX(0px);
   }
   90% {
-    transform: translateY(-35px);
+    transform: translateY(-35px)translateX(-15px);
   }
   100% {
-    transform: translateY(-0px);
+    transform: translateY(-0px)translateX(0px);
   }
 }
 
