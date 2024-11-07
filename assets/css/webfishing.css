@@ -150,8 +150,11 @@
   30% {
     transform: translateY(0px) translateX(0px);
   }
+  35% {
+    transform: translateY(-25px) translateX(0px);
+  }
   40% {
-    transform: translateY(-25px) translateX(5px);
+    transform: translateY(-25px) translateX(0px);
   }
   60% {
     transform: translateY(0px) translateX(0px);
@@ -159,8 +162,10 @@
   80% {
     transform: translateY(0px) translateX(0px);
   }
-  90% {
+  85% {
     transform: translateY(-35px)translateX(-15px);
+  }
+  90% {
   }
   100% {
     transform: translateY(-0px)translateX(0px);
