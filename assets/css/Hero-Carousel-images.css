@@ -2,3 +2,8 @@
   object-fit: cover;
 }
 
+#catchDescription {
+  font-size: xx-large;
+  letter-spacing: 2px;
+}
+

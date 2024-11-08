@@ -197,3 +197,14 @@
   /*animation: rotateItem 10s infinite linear;*/
 }
 
+#sizeCM {
+  color: rgb(213,170,115);
+}
+
+.textSoloHeading {
+  color: #ffeed5;
+  background-color: #5a755a;
+  border-radius: 32px;
+  padding: 10px;
+}
+
