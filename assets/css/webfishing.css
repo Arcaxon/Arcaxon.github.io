@@ -202,9 +202,23 @@
 }
 
 .textSoloHeading {
-  color: #ffeed5;
-  background-color: #5a755a;
-  border-radius: 32px;
-  padding: 10px;
+  color: #ffeed5!important;
+  background-color: #5a755a!important;
+  border-radius: 32px!important;
+  padding: 10px!important;
+}
+
+#fishingNotice:hover {
+  border: 3px solid rgb(71, 110, 105);
+}
+
+#fishingNotice {
+  width: 80px;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 999999;
+  border: 3px solid rgb(71, 110, 105);
 }
 
